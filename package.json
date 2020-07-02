@@ -1,0 +1,36 @@
+{
+  "name": "b42backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "Start": "node index",
+    "dev":"nodemon index",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint \"**/*.js\" --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "express",
+    "api",
+    "mvc",
+    "devf"
+  ],
+  "author": "Rodelin Dipre",
+  "license": "ISC",
+  "description": ""
+}
