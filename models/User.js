@@ -23,8 +23,11 @@ const userShema = new Schema({
     required: true,
     trim: true,
   },
+}, {
+  timestamps: true,
+  versionKey: false,
 });
 
-const User = mongoose.model('User', userShema);
+const User = mongoose.model('User', userShema, 'Users');
 
 module.exports = User;
