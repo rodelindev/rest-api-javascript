@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "celebrate": "^12.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.20",
@@ -10,7 +12,7 @@
   },
   "devDependencies": {
     "Start": "node index",
-    "dev":"nodemon index",
+    "dev": "nodemon index",
     "eslint": "^7.3.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
